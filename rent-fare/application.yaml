@@ -1,6 +1,5 @@
 spring:
-  application:
-    name: rent-fare
+
   jpa:
     hibernate:
       ddl-auto: update

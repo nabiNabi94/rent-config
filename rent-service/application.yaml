@@ -1,6 +1,4 @@
 spring:
-  application:
-    name: rent-service
   jpa:
     hibernate:
       ddl-auto: update
@@ -10,8 +8,6 @@ spring:
     username: postgres
     password: postgres
     url: jdbc:postgresql://localhost:5432/rent
-server:
-  port: 9002
 animal:
   disable: "panda"
 management:

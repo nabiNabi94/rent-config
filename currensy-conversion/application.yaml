@@ -1,6 +1,4 @@
 spring:
-  application:
-    name: currrency-converter
   jpa:
     hibernate:
       ddl-auto: update
@@ -10,8 +8,7 @@ spring:
     username: postgres
     password: postgres
     url: jdbc:postgresql://localhost:5432/rent
-server:
-  port: 9003
+
 
 management:
   endpoints:
