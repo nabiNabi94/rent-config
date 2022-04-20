@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: currrency-converter
+  jpa:
+    hibernate:
+      ddl-auto: update
+    defer-datasource-initialization: true
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: postgres
+    url: jdbc:postgresql://localhost:5432/rent
+server:
+  port: 9003
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+currency:
+  key: "1de3870e8dc5e035e449"

@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: rent-service
+  jpa:
+    hibernate:
+      ddl-auto: update
+    defer-datasource-initialization: true
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: postgres
+    url: jdbc:postgresql://localhost:5432/rent
+server:
+  port: 9002
+animal:
+  disable: "panda"
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
